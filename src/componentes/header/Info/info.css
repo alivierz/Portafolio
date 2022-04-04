@@ -1,0 +1,12 @@
+.estilos{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.myName{
+    color: rgb(53, 176, 191);
+}
+.tamano{
+    font-size: 1.4rem;
+}

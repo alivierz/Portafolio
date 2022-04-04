@@ -1,0 +1,13 @@
+.contenido-descripcion{
+   width: 100%;
+   padding: 0 0 0 1rem;
+}
+.contenido-descripcion > p{
+    text-align: center;
+    line-height: 2;
+}
+@media (min-width: 1000px){
+    .contenido-descripcion{
+        width: 40%;
+    }
+}

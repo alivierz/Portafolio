@@ -1,0 +1,34 @@
+.redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.iconos{
+    padding: .6rem;
+    font-size: 2rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.iconos:hover{
+    color: rgb(53, 176, 191);
+    transition: all ease-in .3s;
+}
+.titulo{
+    color: rgb(53, 176, 191);
+    text-align: center;
+}
+@media (min-width: 650px){
+    .redes{
+        flex-direction: row;
+    }
+    .contenido-side{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .iconos:last-of-type{
+        padding-right: 0;
+    }
+}

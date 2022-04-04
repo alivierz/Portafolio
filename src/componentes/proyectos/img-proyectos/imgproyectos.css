@@ -1,0 +1,15 @@
+.cont-img{
+    overflow: hidden;
+}
+.img{
+    transition: all .5s ease-in-out;
+    height: auto;
+    cursor: pointer;
+    z-index: 1;
+}
+.img:hover{
+    transform: scale(1.2);
+}
+.title-img{
+    text-align: center;
+}

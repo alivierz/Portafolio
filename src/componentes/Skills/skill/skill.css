@@ -1,0 +1,30 @@
+.contenido-skills{
+    width: 90%;
+    background-color: white;
+    border-radius: 1rem;
+    margin: 1rem auto;
+}
+.icono-skil{
+    background-color: rgb(245, 245, 245);
+    color: rgb(53, 176, 191);
+    text-align: center;
+    padding: 2rem 0;
+    margin: 0 2rem;
+    border-bottom-left-radius: 10rem;
+    border-bottom-right-radius: 10rem;
+    font-size: 2rem;
+}
+.titulo-skill{
+    margin: 0 auto;
+}
+.parrafo-skill{
+    color: black;
+    margin: 0 auto;
+    padding: 0 1rem 2rem 1rem;
+    text-align: justify;
+}
+@media (min-width: 750px){
+    .contenido-skills{
+        width: 30%;
+    }
+}

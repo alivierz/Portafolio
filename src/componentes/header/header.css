@@ -1,0 +1,11 @@
+.presentation{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    padding: 0 5%;
+    padding-top: 80px;
+}
+@media (min-width: 650px){
+    .presentation{
+        padding: 80px 15% 0 15%;
+    }
+}

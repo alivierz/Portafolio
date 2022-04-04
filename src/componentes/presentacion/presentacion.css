@@ -1,0 +1,13 @@
+.seccion-me{
+    padding:0 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media(min-width: 1000px){
+    .seccion-me{
+        padding: 0 15%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
