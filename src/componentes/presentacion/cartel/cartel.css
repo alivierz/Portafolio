@@ -5,8 +5,7 @@
     transition: all .2s ease-in-out;
 }
 .personal:hover{
-    border: 10px solid rgb(53, 176, 191);
-    border-radius: 4rem;
+    border: 5px solid white;
 }
 @media (min-width: 600px){
     .contenido-img{
